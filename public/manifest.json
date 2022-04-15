@@ -1,0 +1,22 @@
+{
+  "name": "Extensions core project",
+  "description": "Extension core project",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {},
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [],
+  "host_permissions": [],
+  "content_scripts": [
+    {
+      "matches": [],
+      "js": ["content-script.js"]
+    }
+  ],
+  "icons": {}
+}
